@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+#header h1 {
+  font-size: 38.772px;
+}
+#content {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+  clear: both;
+}
+footer {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#top {
+  background-color: black;
+  height: 360px;
+}
+#top img {
+  float: left;
+  width: 540px;
+}
+#top h2 {
+  color: white;
+  float: right;
+  width: 380px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 43.618px;
+}
+#top-blog {
+  background-color: black;
+  height: 100px;
+}
+#top-blog h2 {
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 55.204px;
+}
+#top-article {
+  height: 529px;
+}
+#top p {
+  color: white;
+  float: right;
+  width: 380px;
+}
+.color1 {
+  color: #FF8C00;
+}
+.color2 {
+  color: #0081C9;
+}
+.small {
+  font-size: 13.43px;
+}
+.square {
+  float: left;
+  display: inline;
+  margin-right: 20px;
+}
+#last {
+  margin-right: 0px;
+}
+#nav {
+  float: right;
+}
+#nav li {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+@font-face {
+  font-family: "Regular-Bold";
+  src: url("type/Regular-Bold.eot");
+  src: local("☺"), url("../type/Regular-Bold.woff") format("woff"), url("../type/Regular-Bold.otf") format("opentype"), url("../type/Regular-Bold.svg#filename") format("svg");
+}
+@font-face {
+  font-family: "Regular-Regular";
+  src: url("type/type.eot");
+  src: local("☺"), url("../type/Regular-Regular.woff") format("woff"), url("../type/Regular-Regular.otf") format("opentype"), url("../type/Regular-Regular.svg#filename") format("svg");
+}
+h2 {
+  font-family: "Regular-Bold", Georgia, serif;
+  font-size: 30.63px;
+  color: #808080;
+  margin-bottom: 6px;
+  padding-top: 8px;
+}
+#header h1 {
+  font-family: "Regular-Bold", Georgia, serif;
+  float: left;
+}
+p {
+  font-family: "Regular-Regular", Georgia, serif;
+  font-size: 17px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+a {
+  font-family: "Regular-Regular", Georgia, serif;
+  font-size: 17px;
+}
+a:link {
+  color: black;
+}
+#header a:link {
+  text-decoration: none;
+}
+#header a:hover {
+  text-decoration: underline;
+  color: #808080;
+}

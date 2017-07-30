@@ -1,0 +1,178 @@
+@bodyWidth: 940px;
+@marginAuto: 0 auto;
+@floatLeft: left;
+@floatRight: right;
+@orange: #FF8C00;
+@blue: #0081C9;
+@font: "Regular-Bold", Georgia, serif; 
+@grey: #808080;
+@relative: relative;
+@regularFont: "Regular-Regular", Georgia, serif; 
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#header {
+width: @bodyWidth;
+
+margin: @marginAuto;
+padding: 10px 20px;
+}
+
+#header h1 {
+  font-size: 38.772px
+}
+
+#content {
+width: @bodyWidth;
+margin: @marginAuto;
+padding: 0 20px;
+clear: both;
+
+}
+
+footer {
+width: @bodyWidth;
+margin: @marginAuto;
+padding: 0 20px;
+
+}
+
+#top {
+  background-color: black;
+  height: 360px;
+}
+
+
+
+#top img {
+  float: @floatLeft;
+  width: 540px;
+}
+#top h2 {
+  color: white;
+  float: @floatRight;
+  width: 380px;
+  position: @relative;
+  top: 50%;
+  transform:      translateY(-50%);
+
+
+  font-size: 43.618px;
+}
+
+#top-blog {
+  background-color: black;
+  height: 100px;
+}
+
+#top-blog h2 {
+  color: white;
+  position: @relative;
+  top: 50%;
+  transform:      translateY(-50%);
+
+
+  font-size: 55.204px;
+}
+
+#top-article {
+  height: 529px;
+}
+
+#top p {
+  color: white;
+  float: @floatRight;
+  width: 380px;
+}
+
+.color1 {
+  color: @orange;
+}
+.color2 {
+  color: @blue;
+}
+
+.small {
+  font-size: 13.43px;
+}
+
+.square {
+  float: @floatLeft;
+  display:inline;
+  margin-right: 20px;
+  
+  }
+  #last {
+  margin-right:0px;
+
+}
+
+#nav {
+  float: @floatRight;
+}
+
+#nav li {
+  display:inline-block;
+  margin: 0 0 0 10px;
+}
+
+@font-face {
+  font-family: "Regular-Bold";
+  src: url("type/Regular-Bold.eot");
+  src: local("☺"),
+    url("../type/Regular-Bold.woff") format("woff"),
+    url("../type/Regular-Bold.otf") format("opentype"),
+    url("../type/Regular-Bold.svg#filename") format("svg");
+  }
+
+  @font-face {
+  font-family: "Regular-Regular";
+  src: url("type/type.eot");
+  src: local("☺"),
+    url("../type/Regular-Regular.woff") format("woff"),
+    url("../type/Regular-Regular.otf") format("opentype"),
+    url("../type/Regular-Regular.svg#filename") format("svg");
+  }
+
+  h2 { 
+    font-family: @font; 
+   font-size:30.63px;
+   color: @grey;
+   margin-bottom: 6px;
+  padding-top: 8px;
+}
+
+  #header h1 {
+    font-family: @font;
+    float: @floatLeft;
+  }
+
+  p {
+    font-family: @regularFont;
+    font-size: 17px;
+    line-height: 29px;
+    margin-bottom: 10px
+  }
+
+a {
+  font-family: @regularFont;
+  font-size: 17px;
+}
+
+a:link {
+  color: black;
+}
+
+#header a:link {
+  text-decoration: none;
+}
+
+#header a:hover {
+    text-decoration: underline;
+    color: @grey;
+}
+
