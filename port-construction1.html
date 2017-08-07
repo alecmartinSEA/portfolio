@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="css/style.css" media="all" rel="stylesheet" »
       type="text/css" />
+    
       <meta charset="UTF-8">
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+      <script src="jquery.waypoints.js"></script>
+      <script src="waypoints.js"></script>
+      <script language="javascript" src="email.js"></script>
+      <script src="javascript.js"></script>
 </head>
 <body>
 	<div id="header">
-		<a href="#"><h1><span class="color1">A</span><span class="color2">M</span></h1></a>
+		<a id="logo" href="http://alecmartin25.com/Port-Construction/port-construction1.html"><h2><span class="color1">A</span><span class="color2">M</span></h2></a></h2>
 		<ul id="nav">
 	    	<li><a href="#">Projects</a></li>
 	    	<li><a href="#">About</a></li>
@@ -23,16 +31,18 @@
 			<h2><span class="color1">A</span>LEC <span class="color2">M</span>ARTIN</br>
 			FRONT-END DEVELOPER</h2>
 	</div>	
+
 	<h2><span class="color1">P</span><span class="color2">r</span>ojects</h2>
-	<a href="#"><div class="square"><img src="diner.jpg">
+	
+	<a href="#"><div class="square animated test"><img src="diner.jpg">
 	<p>Diner Resturant</br>
 	<span class="small">Design/development</span></p>
 	</div></a>
-	<a href="#"><div class="square"><img src="paris.jpg">
+	<a href="#"><div class="square animated test"><img src="paris.jpg">
 	<p>French Resturant</br>
 	<span class="small">Design/development</span></p>
 	</div></a>
-	<a href="#"><div class="square" id="last"><img src="pizza.jpg">
+	<a href="#"><div class="square animated test" id="last"><img src="pizza.jpg">
 	<p>Pizza Resturant</br>
 	<span class="small">Development</span></p>
 	</div></a>
@@ -40,7 +50,7 @@
 	
 	
 		<h2><span class="color1">S</span><span class="color2">a</span>y Hello</h2>
-		<p>alecmartin28@gmail.com</p>
+		<script>mail("alecmartin28","gmail",0,"")</script>
 		
 	
 </div>

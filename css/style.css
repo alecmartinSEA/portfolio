@@ -2,14 +2,24 @@
   margin: 0;
   padding: 0;
 }
+
+#header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
 #header {
   width: 940px;
   margin: 0 auto;
   padding: 10px 20px;
 }
-#header h1 {
+#header h2{
   font-size: 38.772px;
 }
+
+
 #content {
   width: 940px;
   margin: 0 auto;
@@ -23,11 +33,12 @@ footer {
 }
 #top {
   background-color: black;
-  height: 360px;
+  height: 500px;
 }
 #top img {
   float: left;
   width: 540px;
+  height: 500px;
 }
 #top h2 {
   color: white;
@@ -98,7 +109,7 @@ h2 {
   margin-bottom: 6px;
   padding-top: 8px;
 }
-#header h1 {
+#header h2 {
   font-family: "Regular-Bold", Georgia, serif;
   float: left;
 }
@@ -115,10 +126,20 @@ a {
 a:link {
   color: black;
 }
-#header a:link {
+
+a:visited {
+  color: black;
+}
+
+a:link {
   text-decoration: none;
 }
-#header a:hover {
+#nav a:hover {
   text-decoration: underline;
-  color: #808080;
+  color:  #0081C9;
+}
+
+#nav .alternate a:hover {
+  text-decoration: underline;
+  color: #FF8C00;
 }
