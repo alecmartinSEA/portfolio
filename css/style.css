@@ -15,9 +15,16 @@
   margin: 0 auto;
   padding: 10px 20px;
 }
-#header h2{
+#header h1{
   font-size: 38.772px;
+  float: left;
 }
+
+#about {
+  padding-top: 0;
+}
+
+
 
 
 #content {
@@ -30,6 +37,7 @@ footer {
   width: 940px;
   margin: 0 auto;
   padding: 0 20px;
+  clear: both;
 }
 #top {
   background-color: black;
@@ -81,7 +89,20 @@ footer {
   float: left;
   display: inline;
   margin-right: 20px;
+ 
+  
 }
+.mask{  
+  
+  opacity: .90;
+  -webkit-transition: opacity .30s ease;
+}
+
+.square:hover .mask {
+  background:rgba(0,0,0,.20);
+               opacity:1;}
+
+
 #last {
   margin-right: 0px;
 }
@@ -102,6 +123,7 @@ footer {
   src: url("type/type.eot");
   src: local("☺"), url("../type/Regular-Regular.woff") format("woff"), url("../type/Regular-Regular.otf") format("opentype"), url("../type/Regular-Regular.svg#filename") format("svg");
 }
+
 h2 {
   font-family: "Regular-Bold", Georgia, serif;
   font-size: 30.63px;
@@ -109,16 +131,24 @@ h2 {
   margin-bottom: 6px;
   padding-top: 8px;
 }
-#header h2 {
+#header h1 {
   font-family: "Regular-Bold", Georgia, serif;
   float: left;
 }
+
+#paragraph {
+  float: right;
+  width: 55%;
+}
+
 p {
   font-family: "Regular-Regular", Georgia, serif;
   font-size: 17px;
   line-height: 29px;
   margin-bottom: 10px;
 }
+
+#
 a {
   font-family: "Regular-Regular", Georgia, serif;
   font-size: 17px;

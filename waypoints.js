@@ -4,7 +4,7 @@ $( document ).ready(function() {
  
   $('.test').waypoint(function() {
       $('.test').addClass('fadeInLeft');
-  }, { offset: '30%' });
+  }, { offset: '40%' });
  
 
     
